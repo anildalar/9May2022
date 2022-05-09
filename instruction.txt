@@ -1,0 +1,104 @@
+HTML
+
+	Html Structure
+
+	In order to create structure you use
+
+html tags
+
+HTML Tags are of 2 types
+	1. Singular Tags
+				Which contains only start tag
+
+			Eg.
+				<img>
+				<br>
+				<meta>
+				
+	2. Paired Tags
+			Which contains both start and close tags
+		
+		Eg.
+div = division
+
+\ = Forward Slash
+/ = Back Slash
+
+			<div></div>	
+
+
+Attributes
+
+Attributes provide additional information about tag
+
+Syntax/Formula
+<start_tag attribute="value" >Content Area</end_tag>
+
+There can be any no of attributes
+Eg.
+<div id="a1" class="a2" name="anil" surname="dollor">Welcome to OKLABS</div>
+
+<img id="a1" class="a4 a2" >
+<html lang="en">
+    
+</html>
+
+Pre Defined Attributes
+	id="a1"
+	class="a2"
+		
+User Defined Attributes = custom attributes
+	Eg. name="anil"
+			surname="dollor"
+			address="neemuch"
+
+
+html page1
+	page1.html
+	<div id="a"></div>
+	<div id="b"></div>
+
+
+html page2
+	page2.html
+	<div id="a"></div>
+
+
+The first tag of html page is the doctype tag
+
+The Doctype tags tell the browser that which version of html
+we are using.
+
+<!doctype html>
+
+this is tell browser that we are using html 5
+
+if
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+The this tag tell the brower that we are using HTML 4.01
+
+
+Parent always hold childrens
+
+<parent>
+	<child>
+			<sub_child>
+			</sub_child>
+	</child>
+	<child>
+	</child>
+</parent>
+
+You should always follow proper indentation
+
+
+Shift + Alt + DownArrow = Duplicate of LIne
+
+w3c
+
+World wide web consortium
+
+
+	
